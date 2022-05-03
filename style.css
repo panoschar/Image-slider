@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-color: rgb(37, 36, 36);
+   color: bisque;
+}
+
+#container {
+  height: 400px;
+  width: 600px;
+  margin: 100px auto;
+  text-align: center;
+  border: 5px solid black;
+}
+
+#image {
+  height: 390px;
+  width: 590px;
+}
+
+

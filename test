@@ -1,0 +1,19 @@
+var sliderImage = document.querySelector('.slider-image');
+var images = ['car1.jpg', 'car2.jpg', 'car3.jpg', 'car4.jpg', 'car5.jpg'];
+var i = 0 
+
+function prev() {
+if (i <= 0) i = images.length;
+i--;
+return setImg();
+}
+
+function next() {
+if (i >= images.length -1) i = -1;
+i++
+return setImg()
+}
+
+function setImg() {
+    return sliderImage.setAttribute('src', 'images/' + images(i));
+}
